@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.listWrapper {
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.listItem {
+  width: 225px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.listItemdData {
+  display: block;
+  padding: 10px;
+}
+
+.listItemBtn {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}

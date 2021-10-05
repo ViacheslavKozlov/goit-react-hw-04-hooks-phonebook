@@ -1,0 +1,52 @@
+body {
+  background-color: lightslategray;
+}
+
+form,
+label,
+input {
+  display: block;
+}
+.formWarpper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formInputWarpper {
+  margin: 15px;
+}
+
+.lableName {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 10px;
+  color: black;
+}
+
+.inputField {
+  width: 150px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid grey;
+  background-color: lightgray;
+}
+
+.formBtn {
+  display: block;
+  margin: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.formBtn:hover {
+  background-color: lightgray;
+}
